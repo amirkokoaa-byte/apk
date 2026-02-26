@@ -6,6 +6,8 @@ import { FileExplorer } from "@/components/dashboard/FileExplorer";
 import { ManifestViewer } from "@/components/dashboard/ManifestViewer";
 import { SecurityReport } from "@/components/dashboard/SecurityReport";
 import { DebugConsole } from "@/components/dashboard/DebugConsole";
+import { HexViewer } from "@/components/dashboard/HexViewer";
+import { DataInspector } from "@/components/dashboard/DataInspector";
 import JSZip from "jszip";
 import { motion, AnimatePresence } from "motion/react";
 import { LanguageProvider, useLanguage } from "@/contexts/LanguageContext";
@@ -36,6 +38,10 @@ function AppContent() {
         return <ManifestViewer zip={zipContent} />;
       case "security":
         return <SecurityReport zip={zipContent} />;
+      case "hex":
+        return <HexViewer />;
+      case "data":
+        return <DataInspector />;
       case "console":
         return <DebugConsole />;
       default:

@@ -10,7 +10,9 @@ import {
   Play,
   Terminal,
   FileSearch,
-  Languages
+  Languages,
+  Binary,
+  Database
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
@@ -29,6 +31,8 @@ export function Sidebar({ activeTab, setActiveTab }: SidebarProps) {
     { id: "files", label: t.sidebar.files, icon: FileSearch },
     { id: "manifest", label: t.sidebar.manifest, icon: FileCode },
     { id: "security", label: t.sidebar.security, icon: ShieldCheck },
+    { id: "hex", label: t.sidebar.hex, icon: Binary },
+    { id: "data", label: t.sidebar.data, icon: Database },
     { id: "console", label: t.sidebar.console, icon: Terminal },
   ];
 

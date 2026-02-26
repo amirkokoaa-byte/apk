@@ -106,6 +106,30 @@ export const translations = {
     console: {
       title: "Logcat Simulator",
       ready: "Console ready. Press Play to simulate app execution logs.",
+    },
+    hex: {
+      title: "Hex Viewer",
+      openFile: "Open File to Inspect",
+      offset: "Offset",
+      hex: "Hex",
+      ascii: "ASCII",
+      noFile: "Select a file from the File Explorer to view its binary content.",
+      readOnly: "Read-Only Mode",
+      headerInfo: "ELF Header Analysis",
+      arch: "Architecture",
+      endian: "Endianness",
+      type: "Type",
+    },
+    data: {
+      title: "Data Structure Inspector",
+      sharedPrefs: "Shared Preferences",
+      database: "SQLite Databases",
+      noData: "No data storage files found in this package.",
+      simulated: "Simulated Data View",
+      key: "Key",
+      value: "Value",
+      type: "Type",
+      table: "Table",
     }
   },
   ar: {
@@ -125,6 +149,8 @@ export const translations = {
       manifest: "تحليل المانيفست",
       security: "التقرير الأمني",
       console: "وحدة التحكم (Debug)",
+      hex: "عارض Hex",
+      data: "فحص البيانات",
     },
     upload: {
       title: "رفع ملف APK للتحليل",
@@ -215,6 +241,30 @@ export const translations = {
     console: {
       title: "محاكي Logcat",
       ready: "وحدة التحكم جاهزة. اضغط تشغيل لمحاكاة سجلات تنفيذ التطبيق.",
+    },
+    hex: {
+      title: "عارض Hex",
+      openFile: "فتح ملف للفحص",
+      offset: "الإزاحة (Offset)",
+      hex: "Hex",
+      ascii: "ASCII",
+      noFile: "اختر ملفاً من مستكشف الملفات لعرض محتواه الثنائي.",
+      readOnly: "وضع القراءة فقط",
+      headerInfo: "تحليل ترويسة ELF",
+      arch: "المعمارية",
+      endian: "ترتيب البايتات (Endianness)",
+      type: "النوع",
+    },
+    data: {
+      title: "فاحص هيكل البيانات",
+      sharedPrefs: "التفضيلات المشتركة",
+      database: "قواعد بيانات SQLite",
+      noData: "لم يتم العثور على ملفات تخزين بيانات في هذه الحزمة.",
+      simulated: "عرض بيانات محاكى",
+      key: "المفتاح",
+      value: "القيمة",
+      type: "النوع",
+      table: "الجدول",
     }
   }
 };
