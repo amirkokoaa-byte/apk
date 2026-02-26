@@ -1,0 +1,5 @@
+{
+  "name": "APK Inspector",
+  "description": "A security analysis tool for inspecting Android APK files, viewing internal structure, and checking for common vulnerabilities.",
+  "requestFramePermissions": []
+}
